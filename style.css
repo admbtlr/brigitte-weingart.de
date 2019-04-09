@@ -1,0 +1,256 @@
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=47d1aae6-7069-43d2-a74c-d770398a9fd1");
+    @font-face{
+        font-family:"AvenirNextLTW01-Regular";
+        src:url("Fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix");
+        src:url("Fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix") format("eot"),url("Fonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2") format("woff2"),url("Fonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff") format("woff"),url("Fonts/46cf1067-688d-4aab-b0f7-bd942af6efd8.ttf") format("truetype"),url("Fonts/52a192b1-bea5-4b48-879f-107f009b666f.svg#52a192b1-bea5-4b48-879f-107f009b666f") format("svg");
+    }
+    @font-face{
+        font-family:"AvenirNextLTW01-Italic";
+        src:url("Fonts/d1fddef1-d940-4904-8f6c-17e809462301.eot?#iefix");
+        src:url("Fonts/d1fddef1-d940-4904-8f6c-17e809462301.eot?#iefix") format("eot"),url("Fonts/7377dbe6-f11a-4a05-b33c-bc8ce1f60f84.woff2") format("woff2"),url("Fonts/92b66dbd-4201-4ac2-a605-4d4ffc8705cc.woff") format("woff"),url("Fonts/18839597-afa8-4f0b-9abb-4a30262d0da8.ttf") format("truetype"),url("Fonts/1de7e6f4-9d4d-47e7-ab23-7d5cf10ab585.svg#1de7e6f4-9d4d-47e7-ab23-7d5cf10ab585") format("svg");
+    }
+    @font-face{
+        font-family:"Avenir Next LT W01 Bold";
+        src:url("Fonts/dccb10af-07a2-404c-bfc7-7750e2716bc1.eot?#iefix");
+        src:url("Fonts/dccb10af-07a2-404c-bfc7-7750e2716bc1.eot?#iefix") format("eot"),url("Fonts/14c73713-e4df-4dba-933b-057feeac8dd1.woff2") format("woff2"),url("Fonts/b8e906a1-f5e8-4bf1-8e80-82c646ca4d5f.woff") format("woff"),url("Fonts/890bd988-5306-43ff-bd4b-922bc5ebdeb4.ttf") format("truetype"),url("Fonts/ed104d8c-7f39-4e8b-90a9-4076be06b857.svg#ed104d8c-7f39-4e8b-90a9-4076be06b857") format("svg");
+    }
+    @font-face{
+        font-family:"AvenirNextLTW01-BoldIta";
+        src:url("Fonts/ac2d4349-4327-448f-9887-083a6a227a52.eot?#iefix");
+        src:url("Fonts/ac2d4349-4327-448f-9887-083a6a227a52.eot?#iefix") format("eot"),url("Fonts/eaafcb26-9296-4a57-83e4-4243abc03db7.woff2") format("woff2"),url("Fonts/25e83bf5-47e3-4da7-98b1-755efffb0089.woff") format("woff"),url("Fonts/4112ec87-6ded-438b-83cf-aaff98f7e987.ttf") format("truetype"),url("Fonts/ab1835cb-df6f-4d8d-b8ee-3075f5ba758d.svg#ab1835cb-df6f-4d8d-b8ee-3075f5ba758d") format("svg");
+    }
+
+			.orange {
+				background-color: #f6bb00;
+				color: #fff;
+			}
+			.red {
+				background-color: #f26633;
+				color: #fff;
+			}
+			.purple {
+				background-color: #ccbbdd;
+				color: #fff;
+			}
+			.yellow {
+				background-color: #F3EE08;
+				color: #fff;
+			}
+			.blue {
+				background-color: #6e99ba;
+				color: #fff;
+			}
+			.lightgreen {
+				background-color: #C5DDD7;
+				color: #fff;
+			}
+			.orange, .red, .purple, .yellow, .blue, .lightgreen {
+				margin-left: -5px !important;
+				padding-left: 5px !important;
+			}
+			html {
+				margin: 0;
+			}
+			html * {
+				padding: 0;
+				margin: 0;
+			}
+			body {
+				background-color: #eee;
+				padding: 0;
+				margin: 0;
+				/*font-family: "Georgia", "Serif";*/
+				font-family: "AvenirNextLTW01-Regular", sans-serif;
+				font-size: 18px;
+				text-align: center;
+				padding-bottom: 50px;
+				color: #444;
+			}
+			h1, h2, h4 {
+				font-family: "Avenir Next LT W01 Bold";
+			}
+			h3 {
+				font-family: "AvenirNextLTW01-BoldIta";
+			}
+			h1 {
+				color: #f42;
+				font-size: 24pt;
+				text-align: left;
+				margin: 20 0 10 0;
+			}
+			h2 {
+				margin-bottom: 20px;
+			}
+			h3 {
+				font-size: 1.3em;
+				text-align: left;
+				/*font-weight: normal;*/
+				font-style: italic;
+				display: inline;
+				line-height: 2em;
+				padding: 1px 40px 10px 0;
+				margin: 5px 0 10px;
+				color: #fff;
+			}
+			h4 {
+				font-size: 1.2em;
+				text-align: left;
+				padding: 1em 0 0;
+				margin: 0;
+				/*font-weight: normal;*/
+				/*font-style: italic;*/
+			}
+			a:link, a:visited, a:active {
+				color: #bb3300;
+				text-decoration: none;
+			}
+
+			a:hover {
+				text-decoration: underline;
+			}
+
+			p {
+				margin: 0 0 1.4em;
+			}
+			div {
+				background: #fff;
+			}
+			ul {
+				margin: 1em 0 10px 20px;
+			}
+			ul.menu {
+				margin-bottom: 0px;
+				margin-left: 0px;
+			}
+			li {
+				margin-bottom: 10px;
+			}
+			#main {
+				/*position: absolute;*/
+				/*width: 720px;
+				margin: 0px auto;
+				background: #fff;
+				padding: 10px;*/
+			}
+			#head, #name, #mainmenu {
+				background-color: #85bdb7;
+				color: #fff;
+			}
+			#name {
+				text-align: center;
+			}
+			#name a:link, #name a:visited, #name a:active, #name a:hover {
+				color: #fff;
+				text-decoration: none;
+			}
+			#head {
+				border-bottom: 4px solid #C5DDD7;
+				margin-bottom:  30px;
+			}
+			#name {
+				float: left;
+			}
+			#head h1 {
+				color: #fff;
+				padding: 0;
+				font-weight: normal;
+				font-size: 4em;
+
+			}
+			#mainmenu {
+				padding: 80px 0 0;
+				text-align: left;
+				width: 1000px;
+				margin: 0 auto;
+			}
+			#mainmenu ul {
+				list-style: none;
+				padding: 0;
+			}
+			#mainmenu ul li {
+				display: inline;
+				padding: 6px 40px 0 3px ;
+				font-weight: bold;
+			}
+			#mainmenu ul li a {
+				color: #fff;
+			}
+			#mainmenu ul li.selected {
+				background-color: #C5DDD7;
+				color: #85bdb7;
+				font-style: italic;
+			}
+			#content {
+				width: 1000px;
+				margin: 0px auto;
+				background: #fff;
+				line-height: 1.4em;
+				padding: 20px 0;
+				clear: both;
+				text-align: left;
+			}
+			.box {
+				padding: 5px 25px 5px 0;
+				margin: 20px 0 0;
+				width: 470px;
+			}
+			.box h3 {
+				line-height: inherit;
+			}
+			div.bookcontainer {
+				margin-top: 30px;
+				overflow: hidden;
+				width: 100%;
+			}
+			.bookcontainer h4 {
+				margin-top: 0px;
+				padding-top: 0px;
+			}
+			div.bookimage {
+				width: 110px;
+				max-width: 110px;
+				float: left;
+				text-align: right;
+			}
+
+			div.bookimage img{
+				width: 110px;
+				max-width: 110px;
+			}
+
+			div.bookdescription {
+				width: 860px;
+				float: right;
+			}
+			#cv_left {
+				display: block;
+				margin-top: 20px;
+				width: 170px;
+				float: left;
+				margin-bottom: 10px;
+			}
+			#cv_right {
+				display: block;
+				margin-top: 20px;
+				float: left;
+				text-align: left;
+				width: 520px;
+				padding-right: 20px;
+			}
+			.details {
+				border-left: 4px solid #C5DDD7;
+				padding: 10px;
+				color: rgb(102, 102, 102);
+				display: none;
+				background-color: #F9FDFA;
+			}
+			br {
+				clear: left;
+			}
+
