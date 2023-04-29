@@ -255,7 +255,7 @@ article:hover a {
 	max-width: 1000px;
 	margin: 0px auto;
 	line-height: 1.4em;
-	padding: 20px 0;
+	padding: 0;
 	clear: both;
 	text-align: left;
 }
@@ -268,7 +268,6 @@ article:hover a {
 }
 #head {
 	/* border-bottom: 4px solid #C5DDD7; */
-	margin-bottom:  30px;
 	padding: 20px 0;
 }
 #head h1 {
@@ -279,9 +278,8 @@ article:hover a {
 	line-height: 1em	;
 }
 #mainmenu {
-	padding: 30px 0 0;
+	padding: 10px 0 0;
 	text-align: left;
-	width: 1000px;
 	/* margin: 0 auto; */
 }
 #mainmenu ul {
@@ -289,8 +287,8 @@ article:hover a {
 	padding: 0;
 }
 #mainmenu ul li {
-	display: inline;
-	padding: 6px 40px 5px 3px ;
+	display: inline-block;
+	padding: 0 30px 0 0;
 	font-weight: bold;
 }
 #mainmenu ul li a {
@@ -301,11 +299,6 @@ article:hover a {
 	color: #85bdb7; */
 	font-family: "Avenir Next LT W01 Bold";
 	color: white;
-}
-.box {
-	padding: 0 25px 5px 0;
-	margin: 20px 0 0;
-	width: 470px;
 }
 /* .box h3 {
 	line-height: inherit;
@@ -326,7 +319,6 @@ div.bookcontainer {
 div.bookimage {
 	width: 200px;
 	max-width: 200px;
-	float: left;
 	text-align: right;
 }
 
@@ -335,10 +327,6 @@ div.bookimage img {
 	max-width: 200px;
 }
 
-div.bookdescription {
-	width: 770px;
-	float: right;
-}
 #cv_left {
 	display: block;
 	margin-top: 20px;
@@ -373,7 +361,23 @@ section img {
 	max-height: 400px;
 }
 
-@media screen and (min-width: 900px) {
+.box {
+	margin: 20px 0 0;
+}
+
+@media screen and (min-width: 1000px) {
+	.homepage {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.box {
+		width: 470px;
+		padding: 0 25px 5px 0;
+	}
+	.schwerpunkte {
+		columns: 2;
+	} 
 	section {
 		width: calc(50% - 40px);
 		float: left;
@@ -384,4 +388,13 @@ section img {
 		clear: left;
 	}
 
+	.bookimage {
+		float: left;
+	}
+	.bookdescription {
+		width: 770px;
+		float: right;
+	}
+	
+	
 }
