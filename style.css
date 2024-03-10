@@ -330,7 +330,6 @@ div.bookimage img {
 #cv_left {
 	display: block;
 	margin-top: 20px;
-	width: 170px;
 	float: left;
 	margin-bottom: 10px;
 }
@@ -339,7 +338,6 @@ div.bookimage img {
 	margin-top: 20px;
 	float: left;
 	text-align: left;
-	width: 520px;
 	padding-right: 20px;
 }
 .details {
@@ -395,6 +393,10 @@ section img {
 		width: 770px;
 		float: right;
 	}
-	
-	
+	#cv-right {
+		width: 520px;
+	}
+	#cv_left {
+		width: 170px;
+	}	
 }
