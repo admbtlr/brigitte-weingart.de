@@ -375,6 +375,7 @@ section img {
 	}
 	.schwerpunkte {
 		columns: 2;
+		padding-right: 10px;
 	} 
 	section {
 		width: calc(50% - 40px);
